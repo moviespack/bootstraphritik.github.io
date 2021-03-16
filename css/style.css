@@ -1,0 +1,127 @@
+h1,h2,h3,h4,h5,p,b,span,a{
+    font-family: Raleway;
+}
+
+
+
+.carousel , .carousel-item{
+    height: 80vh !important;
+}
+
+
+.banner{
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+.banner img
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+
+}
+.banner .detail {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    color: white;
+    top :0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;   
+}
+.banner .detail h4{
+    background: rgba(0, 0, 0, 0.568);
+    padding: 40px;
+}
+.banner .detail p{
+    background-color: rgba(0, 0, 0, 0.637);
+    padding: 40px;
+}
+.box{
+    position: relative;
+    width: 100%;
+    height: 400px;
+    margin-top: 10px;
+}
+.box img{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+.box .detail{
+    position: absolute;
+    background:rgba(0,0,0,0.924);
+    height: 0;
+    width: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    color:blue;
+    transition: 1s;
+    overflow: hidden;
+}
+.box:hover .detail{
+    padding: 10px;
+    height: 100%;
+    width: 100%;
+}
+.btn{
+    margin-top: 10px;
+}
+p{
+    color:white;
+}      
+P1{
+    color:rgb(67, 112, 25);
+}
+body{
+    background-color: rgb(3, 1, 10);
+}
+
+
+.searchbox{
+    position: absolute;
+    top:20%;
+    left:50%;
+    height: 40px;
+    background-color: #2f3640;
+    border-radius: 40px;
+    padding: 10px;
+   
+}
+#textbox{
+    line-height: 40px;
+    background: none;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    right: 0;
+    
+}
+h6{ 
+     color:white;
+     font-size: medium;
+}
+p6{
+    color:black;
+}
+h6{
+    text-align: center;
+    
+    
+}
+p3{
+    color:white;
+    
+}
+u{
+    color:white;
+}
+
+
+  
+
+
+

@@ -1,0 +1,629 @@
+
+<!doctype html>
+
+    
+        
+<link rel="stylesheet" href="css/materialize.min.css">
+<link rel="stylesheet" href="css/style.css">
+
+<li><a href="http://localhost/registration/moviespack/index.html">Home</a></li>     
+
+
+<input onkeyup="getanswer(document.getElementById('qurybox').value)" id="qurybox"> 
+<div id="answer">
+    
+ 
+
+</div>
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js">
+    
+</script> 
+<script> var data;
+function getanswer(q){
+$.get("https://www.omdbapi.com/?s="+q+"&apikey=969a5cf6", function(rawdata){
+var rawstring =JSON.stringify(rawdata);
+data =JSON.parse(rawstring);
+var title = data.Search[0].Title;
+var year = data.Search[0].Year; 
+var imdburl="https://www.imdb.com/title/"+data.Search[0].imdbID+"/";
+
+var posterurl =data.Search[0].Poster;
+document.getElementById('answer').innerHTML="<h1>"+title+"</h1><br> <img src= '"+posterurl+"'><br><p> Year Released:"+year+"</p> <br> <p> IMDB page: <a href='"+imdburl+"'target='_blank'>"+imdburl+"</a></p>"; }); }</script>
+
+    
+ 
+       
+    
+
+    <footer class="page-footer purple">
+    <div class="row">
+
+      <div class="col s6 m4 l3">
+          <div class="box">
+              <img src="images/avengers_endgame_ver45_xlg.jpg" alt="">
+              <div class="detail">
+       <h5>AVENGER END GAME(DUAL AUDIO) </h5>                             
+             <p1> VIEW TRAILERS</p1>
+         
+                  <a href="https://www.youtube.com/watch?v=TcMBFSGVi1c" class="btn purple white-text">TRAILERS</a>
+              </div>
+          </div>
+      </div>
+
+      <div class="col s6 m4 l3">
+        <div class="box">
+            <img src="images/sonic_the_hedgehog_poster3.jpg" alt="">
+            <div class="detail">
+                <h5>SONIC (DUAL AUDIO )</h5>
+                <p1>VIEW TRAILER</p1>
+                <a href="https://www.youtube.com/watch?v=szby7ZHLnkA" class="btn purple white-text">TRAILERS</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="col s6 m4 l3">
+        <div class="box">
+            <img src="images/Pacificrim.jpg" alt="">
+            <div class="detail">
+                <h5>PACIFIC RIM (DUAL AUDIO) </h5>
+                 <p1> VIEW TRAILERS.</p1>
+                <a href="https://www.youtube.com/watch?v=5guMumPFBag" class="btn purple white-text">TRAILERS</a>
+        </div>
+    </div>
+    </div>
+
+    <div class="col s6 m4 l3">
+        <div class="box">
+            <img src="images/Thor-Ragnarok-international-poster-1-large.jpg" alt="">
+            <div class="detail">
+                <h5>THOR RAGNOROK (DUAL AUDIO ) </h5>
+                <p1>VIEW TRAILERS .</p1>
+                <a href="https://www.youtube.com/watch?v=ue80QwXMRHg" class="btn purple white-text">TRAILER</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="col s6 m4 l3">
+        <div class="box">
+            <img src="images/infintywar.jpg" alt="">
+            <div class="detail">
+                <h5>AVENGERS INFINTY WAR( DUAL AUDIO) </h5>
+                <p1>Make sure to Download { U TORRENT APPLICATION } before dowloading the movies.</p1>
+                <a href="https://www.1377x.to/torrent/2960340/Avengers-Infinity-War-2018-720p-HQ-New-CAMRip-Line-Audios-Tamil-Telugu-Hindi-Eng-x264-1-2GB-Team-TR/" class="btn purple white-text">Download Now</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="col s6 m4 l3">
+        <div class="box">
+            <img src="images/new-dark-phoenix-poster-xl.jpg" alt="">
+            <div class="detail">
+                <h5>DARK PHOENIX (DUAL AUDIO) </h5>
+                <p1>Make sure to Download { U TORRENT APPLICATION } before dowloading the movies .</p1>
+                <a href="https://www.1377x.to/torrent/3967355/X-Men-Dark-Phoenix-2019-BluRay-720p-Hindi-5-1-English-Dual-Audio-X264-ESub/" class="btn purple white-text">Download Now</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="col s6 m4 l3"> 
+        <div class="box">
+            <img src="images/extraction_netflix_xlg.jpg" alt="">
+            <div class="detail">
+                <h5> EXTRACTION (DUAL AUDIO) </h5>
+                <p1>Make sure to Download { U TORRENT APPLICATION } before dowloading the movies .</p1>
+                <a href="https://www.1377x.to/torrent/4422561/Extraction-2020-UNTOUCHED-720p-NF-WEBRip-Dual-Audio-Hindi-English-DD-5-1-950-MB-MSub-x264-Shadow/" class="btn purple white-text">Download Now</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="col s6 m4 l3">
+        <div class="box">
+            <img src="images/captain_marvel_ver19_xlg.jpg" alt="">
+            <div class="detail">
+                <h5>CAPTIAN MARVEL (DUAL AUDIO) </h5>
+                <p1>Make sure to Download { U TORRENT APPLICATION } before dowloading the movies .</p1>
+                <a href="https://www.1377x.to/torrent/3676041/Captain-Marvel-2019-720p-HD-TS-x264-Dual-Audio-Hindi-English-MW/" class="btn purple white-text">Download Now</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="col s6 m4 l3">
+        <div class="box">
+            <img src="images/joker.jpg" alt="">
+            <div class="detail">
+                <h5> JOKER (SPANISH AUDIO) </h5>
+                <p1>Make sure to Download { U TORRENT APPLICATION } before dowloading the movies.</p1>
+                <a href="https://www.1377x.to/torrent/4190226/Joker-2019-BluRay-1080p-YTS-YIFY/" class="btn purple white-text">Download Now</a>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="col s6 m4 l3">
+        <div class="box">
+            <img src="images/Blackwidow.jpeg" alt="">
+            <div class="detail">
+                <h5>BLACK WIDOW (DUAL AUDIO) </h5>
+                <p1>Make sure to Download { U TORRENT APPLICATION } before dowloading the movies .</p1>
+                <a href="https://www.1377x.to/torrent/4396263/Avengers-Confidential-Black-Widow-Punisher-2014-720p-WEBRip-YTS-YIFY/" class="btn purple white-text">Download Now</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="col s6 m4 l3">
+        <div class="box">
+            <img src="images/inception.jpg" alt="">
+            <div class="detail">
+                <h5>INCEPTION (DUAL AUDIO) </h5>
+                <p1>Make sure to Download { U TORRENT APPLICATION } before dowloading the movies .</p1>
+                <a href="https://www.1377x.to/torrent/3698301/Inception-2010-BluRay-Dual-Audio-Hindi-5-1-English-5-1-720p-x264-AAC-ESub-mkvCinemas-Telly/" class="btn purple white-text">Download Now</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="col s6 m4 l3">
+        <div class="box">
+            <img src="images/shutterisland.jpg" alt="">
+            <div class="detail">
+                <h5>SHUTTER ISLAND (DUAL AUDIO)</h5>
+                <p1>Make sure to Download { U TORRENT APPLICATION } before dowloading the movies.</p1>
+                <a href="https://www.1377x.to/torrent/3734836/Shutter-Island-2010-720p-BluRay-x264-Dual-Audio-Hindi-English-ESub-Team-DRSD/" class="btn purple white-text">Download Now</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="col s6 m4 l3">
+        <div class="box">
+            <img src="images/pointbreak.jpg" alt="">
+            <div class="detail">
+                <h5>POINT BREAK (DUAL AUDIO)</h5>
+                <p1>Make sure to Download { U TORRENT APPLICATION } before dowloading the movies.</p1>
+                <a href="https://www.1377x.to/torrent/1497402/Point-Break-2015-720p-BluRay-x264-Dual-Audio-Hindi-2-0-English-2-0-Exclusive-By-Dr-STAR/" class="btn purple white-text">Download Now</a>
+            </div>
+        </div>
+    </div>
+    
+    <div class="col s6 m4 l3">
+        <div class="box">
+            <img src="images/madmaxfuryroad.jpg" alt="">
+            <div class="detail">
+                <h5>MADMAX FURY ROAD (DUAL AUDIO)</h5>
+                <p1>Make sure to Download { U TORRENT APPLICATION } before dowloading the movies.</p1>
+                <a href="https://www.1377x.to/torrent/3836484/Mad-Max-Fury-Road-2015-720p-BRRip-x264-Dual-Audio-Hindi-DD-5-1-English-DD-5-1/" class="btn purple white-text">Download Now</a>
+            </div>
+        </div>
+    </div>
+          
+    <div class="col s6 m4 l3">
+        <div class="box">
+            <img src="images/the raid.jpg" alt="">
+            <div class="detail">
+                <h5> RAID (DUAL AUDIO)</h5>
+                <p1>Make sure to Download { U TORRENT APPLICATION } before dowloading the movies.</p1>
+                <a href="https://www.1377x.to/torrent/924281/The-Raid-2-2014-720p-Blu-Ray-x264-Dual-Audio-English-DD-5-1-Hindi-DD-5-1-Mafiaking-TeamTNT/" class="btn purple white-text">Download Now</a>
+            </div>
+        </div>
+    </div>
+          
+    <div class="col s6 m4 l3">
+        <div class="box">
+            <img src="images/train to bhusan.jpg" alt="">
+            <div class="detail">
+                <h5>TRAIN TO BHUSAN (DUAL AUDIO)</h5>
+                <p1>Make sure to Download { U TORRENT APPLICATION } before dowloading the movies.</p1>
+                <a href="https://www.1377x.to/torrent/4418294/Train-to-Busan-2016-720p-Esub-BluRay-x264-Dual-Audio-Hindi-English-GOPI-SAHI/" class="btn purple white-text">Download Now</a>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="col s6 m4 l3">
+        <div class="box">
+            <img src="images/dark knight.jpg" alt="">
+            <div class="detail">
+                <h5>DARK KNIGHT (DUAL AUDIO)</h5>
+                <p1>Make sure to Download { U TORRENT APPLICATION } before dowloading the movies.</p1>
+                <a href="https://www.1377x.to/torrent/3887546/The-Dark-Knight-Rises-2012-720p-BRRip-x264-Dual-Audio-Hindi-DD-5-1-English-DD-5-1/" class="btn purple white-text">Download Now</a>
+                   </div>
+                </div>
+            </div>
+
+            <div class="col s6 m4 l3">
+                <div class="box">
+                    <img src="images/predator.jpg" alt="">
+                    <div class="detail">
+                        <h5>PREDATOR (DUAL AUDIO)</h5>
+                        <p1>Make sure to Download { U TORRENT APPLICATION } before dowloading the movies.</p/1>
+                        <a href="https://www.1377x.to/torrent/3231752/The-Predator-2018-720p-HDTS-x264-Dual-Audio-Hindi-English-MW/" class="btn purple white-text">Download Now</a>
+                           </div>
+                        </div>
+                    </div>
+        
+                    <div class="col s6 m4 l3">
+                        <div class="box">
+                            <img src="images/bloodshot.jpg" alt="">
+                            <div class="detail">
+                                <h5>BLOODSHOT (DUAL AUDIO)</h5>
+                                <p1>Make sure to Download { U TORRENT APPLICATION } before dowloading the movies.</p1>
+                                <a href="https://www.1377x.to/torrent/4373253/Bloodshot-2020-720p-AMZN-WEBRip-Dual-Audio-Hindi-English-ESub-950-MB-x264-Shadow/" class="btn purple white-text">Download Now</a>
+                                   </div>
+                                </div>
+                            </div>
+                
+                         <div class="col s6 m4 l3">
+                                <div class="box">
+                                    <img src="images/suicide squad.jpg" alt="">
+                                    <div class="detail">
+                                        <h5>SUICIDE SQUAD (ENGLISH AUDIO)</h5>
+                                        <p1>Make sure to Download { U TORRENT APPLICATION } before dowloading the movies.</p1>
+                                        <a href="https://www.1377x.to/torrent/2930526/Suicide-Squad-Hell-to-Pay-2018-BluRay-720p-YTS-YIFY/" class="btn purple white-text">Download Now</a>
+                                           </div>
+                                        </div>
+                                    </div>
+     
+                                    <div class="col s6 m4 l3">
+                                        <div class="box">
+                                            <img src="images/EDGE OF TOMORROW.jpg" alt="">
+                                            <div class="detail">
+                                                <h5>EDGE OF TOMORROW (ENGLISH AUDIO)</h5>
+                            <p1>Make sure to Download { U TORRENT APPLICATION } before dowloading the movies.</p1>                    
+                                <a href="https://www.1377x.to/torrent/4614929/Edge-of-Tomorrow-2014-x264-720p-Esub-BluRay-Dual-Audio-English-Hindi-GOPI-SAHI/SS" class="btn purple white-text">Download Now</a>
+                           </div>
+                               </div>
+                      </div>
+
+                      <div class="col s6 m4 l3">
+                        <div class="box">
+                            <img src="images/spiderman2.jpg" alt="">
+                            <div class="detail">
+                                <h5>SPIDERMAN 2 (DUAL AUDIO)</h5>
+            <p1>Make sure to Download { U TORRENT APPLICATION } before dowloading the movies.</p1>                    
+                <a href="https://www.1377x.to/torrent/906379/The-Amazing-Spiderman-2-2014-720p-BluRay-BRRip-x264-900MB/" class="btn purple white-text">Download Now</a>
+           </div>
+               </div>
+      </div>
+
+      <div class="col s6 m4 l3">
+        <div class="box">
+            <img src="images/avatar.jpg" alt="">
+            <div class="detail">
+                <h5>AVATAR (ENGLISH AUDIO)</h5>
+<p1>Make sure to Download { U TORRENT APPLICATION } before dowloading the movies.</p1>                    
+<a href="https://www.1377x.to/torrent/526486/Avatar-Extended-Collectors-Edition-2009-720p-BrRip-x264-YIFY/" class="btn purple white-text">Download Now</a>
+</div>
+</div>
+</div>
+
+<div class="col s6 m4 l3">
+<div class="box">
+    <img src="images/LUCY.jpg" alt="">
+    <div class="detail">
+        <h5>LUCY (DUAL AUDIO)</h5>
+<p1>Make sure to Download { U TORRENT APPLICATION } before dowloading the movies.</p1>                    
+<a href="https://www.1377x.to/torrent/4470865/Lucy-2014-720p-BluRay-x264-Dual-Audio-Hindi-DD5-1-English-DD5-1-MSubs-BATMAN/" class="btn purple white-text">Download Now</a>
+ </div>
+</div>
+</div>
+
+<div class="col s6 m4 l3">
+<div class="box">
+    <img src="images/gravity.jpg" alt="">
+    <div class="detail">
+        <h5>GRAVITY (DUAL AUDIO)</h5>
+<p1>Make sure to Download { U TORRENT APPLICATION } before dowloading the movies.</p1>                    
+<a href="https://www.1377x.to/torrent/3191674/Gravity-2013-BluRay-720p-x264-Dual-Audio-Hindi-Org-English-Hon3yHD/" class="btn purple white-text">Download Now</a>
+       </div>
+     </div>
+  </div>
+
+  <div class="col s6 m4 l3">
+    <div class="box">
+        <img src="images/dawn of the planet.jpg" alt="">
+        <div class="detail">
+            <h5>DAWN OF THE PLANET OF THE APES (DUAL AUDIO)</h5>
+<p1>Make sure to Download { U TORRENT APPLICATION } before dowloading the movies.</p11>                    
+<a href="https://www.1377x.to/torrent/989268/Dawn-Of-The-Planet-Of-The-Apes-2014-720p-Blu-Ray-x264-Dual-Audio-English-BD-5-1-Hindi-BD-5-1-Mafiaking-Team-TellyTNT/" class="btn purple white-text">Download Now</a>
+           </div>
+         </div>
+      </div>    
+
+      <div class="col s6 m4 l3">
+        <div class="box">
+            <img src="images/captian1.jpg" alt="">
+            <div class="detail">
+                <h5>CAPTIAN AMERICA CIVIL WAR (DUAL AUDIO)</h5>
+    <p1>Make sure to Download { U TORRENT APPLICATION } before dowloading the movies.</p1>                    
+    <a href="https://www.1377x.to/torrent/2249059/Captian-America-Civil-War-2016-1080p-Bluray-10bit-x265-HEVC-2CH-ANONA911/" class="btn purple white-text">Download Now</a>
+               </div>
+             </div>
+          </div>    
+
+          <div class="col s6 m4 l3">
+            <div class="box">
+                <img src="images/crank.jpg" alt="">
+                <div class="detail">
+                    <h5>CRANK (DUAL AUDIO)</h5>
+        <p1>Make sure to Download { U TORRENT APPLICATION } before dowloading the movies.</p1>                    
+        <a href="https://www.1377x.to/torrent/3935187/Crank-2006-1080p-BluRay-Dual-Audio-Hindi-Eng-SeedUp/" class="btn purple white-text">Download Now</a>
+                   </div>
+                 </div>
+              </div>    
+
+              <div class="col s6 m4 l3">
+                <div class="box">
+                    <img src="images/aa.jpg" alt="">
+                    <div class="detail">
+                        <h5>APOCALYPTO (ENGLISH AUDIO)</h5>
+            <p1>Make sure to Download { U TORRENT APPLICATION } before dowloading the movies.</p1>                    
+            <a href="https://www.1377x.to/torrent/3135306/Apocalypto-2006-BluRay-1080p-YTS-YIFY/" class="btn purple white-text">Download Now</a>
+                       </div>
+                     </div>
+                  </div>
+                  
+                  <div class="col s6 m4 l3">
+                    <div class="box">
+                        <img src="images/KILLBILL.jpg" alt="">
+                        <div class="detail">
+                            <h5>KILL BILL (DUAL AUDIO)</h5>
+                <p1>Make sure to Download { U TORRENT APPLICATION } before dowloading the movies.</p1>                    
+                <a href="https://www.1377x.to/torrent/4427839/Kill-Bill-Vol-2-2004-x264-720p-Esub-BluRay-Dual-Audio-English-Hindi-GOPI-SAHI/" class="btn purple white-text">Download Now</a>
+                           </div>
+                         </div>
+                      </div>     
+                      
+                      <div class="col s6 m4 l3">
+                        <div class="box">
+                            <img src="images/MATRIX2003.jpg" alt="">
+                            <div class="detail">
+                                <h5>MATRIX 2003(DUAL AUDIO)</h5>
+                    <p1>Make sure to Download { U TORRENT APPLICATION } before dowloading the movies.</p1>                    
+                    <a href="https://www.1377x.to/torrent/4431531/The-Matrix-Reloaded-2003-x264-720p-Esub-BluRay-Dual-Audio-English-Hindi-GOPI-SAHI/" class="btn purple white-text">Download Now</a>
+                               </div>
+                             </div>
+                          </div> 
+                          
+                          <div class="col s6 m4 l3">
+                            <div class="box">
+                                <img src="images/geostorm.jpg" alt="">
+                                <div class="detail">
+                                    <h5>GEOSTORM 2003(DUAL AUDIO)</h5>
+                        <p1>Make sure to Download { U TORRENT APPLICATION } before dowloading the movies.</p1>                    
+                        <a href="https://www.1377x.to/torrent/4680645/Geostorm-2017-720p-BluRay-Hindi-Fan-Dub-English-Dual-Audio-x264-ESub-KatmovieHD/" class="btn purple white-text">Download Now</a>
+                                   </div>
+                                 </div>
+                                </div>                      
+
+                              
+                                <div class="col s6 m4 l3">
+                                    <div class="box">
+                                        <img src="images/TANHAJI.jpg" alt="">
+                                        <div class="detail">
+                                            <h5>TANHAJI (HINDI AUDIO) </h5>                             
+                                       <p1> Make sure to Download { U TORRENT APPLICATION } before dowloading the movies .</p1>
+                                            <a href="https://www.1377x.to/torrent/4403311/Tanhaji-The-Unsung-Warrior-2020-1080p-WEBRip-2-0-YTS-YIFY/" class="btn purple white-text">Download Now</a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col s6 m4 l3">
+                                    <div class="box">
+                                        <img src="images/KESARI.jpg" alt="">
+                                        <div class="detail">
+                                            <h5>KESARI (HINDI AUDIO) </h5>                             
+                                       <p1> Make sure to Download { U TORRENT APPLICATION } before dowloading the movies .</p1>
+                                            <a href="https://www.1377x.to/torrent/4408661/Kesari-2019-1080p-BluRay-5-1-YTS-YIFY/" class="btn purple white-text">Download Now</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col s6 m4 l3">
+                                    <div class="box">
+                                        <img src="images/RAID.jpg" alt="">
+                                        <div class="detail">
+                                            <h5>RAID (HINDI AUDIO) </h5>                             
+                                       <p1> Make sure to Download { U TORRENT APPLICATION } before dowloading the movies .</p1>
+                                            <a href="https://www.1377x.to/torrent/3272549/Raid-2018-BluRay-720p-YTS-YIFY/" class="btn purple white-text">Download Now</a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col s6 m4 l3">
+                                    <div class="box">
+                                        <img src="images/ARTICLE 15.jpg" alt="">
+                                        <div class="detail">
+                                            <h5> ARTICLE 15(HINDI AUDIO) </h5>                             
+                                       <p1> Make sure to Download { U TORRENT APPLICATION } before dowloading the movies .</p1>
+                                            <a href="https://www.1377x.to/torrent/3957494/Article-15-2019-Hindi-1080p-HD-DDP-5-1-640Kbps-x264-Esub/" class="btn purple white-text">Download Now</a>
+                                        </div>
+                                    </div>
+                                </div>
+ 
+                                <div class="col s6 m4 l3">
+                                    <div class="box">
+                                        <img src="images/BAHUBALL2.jpg" alt="">
+                                        <div class="detail">
+                                            <h5>BAHUBALLI 2 (HINDI AUDIO) </h5>                             
+                                       <p1> Make sure to Download { U TORRENT APPLICATION } before dowloading the movies .</p1>
+                                            <a href="https://www.1377x.to/torrent/2388111/Bahubali-2-The-Conclusion-2017-1080p-BRRip-x264-Hindi-AAC-Ozlem/" class="btn purple white-text">Download Now</a>
+                                        </div>
+                                    </div>
+                                </div>
+ 
+                                <div class="col s6 m4 l3">
+                                    <div class="box">
+                                        <img src="images/DRIVE.jpg" alt="">
+                                        <div class="detail">
+                                            <h5>DRIVE (HINDI AUDIO) </h5>                             
+                                       <p1> Make sure to Download { U TORRENT APPLICATION } before dowloading the movies .</p1>
+                                            <a href="https://www.1377x.to/torrent/4093191/Drive-2019-Hindi-720p-HDRip-x264-DD5-1-1-3GB-ESub-MOVCR/" class="btn purple white-text">Download Now</a>
+                                        </div>
+                                    </div>
+                                </div>
+ 
+                                <div class="col s6 m4 l3">
+                                    <div class="box">
+                                        <img src="images/dabbang 3.jpg" alt="">
+                                        <div class="detail">
+                                            <h5>DABBANG 3 (HINDI AUDIO) </h5>                             
+                                       <p1> Make sure to Download { U TORRENT APPLICATION } before dowloading the movies .</p1>
+                                            <a href="https://www.1377x.to/torrent/4299868/Dabangg-3-2019-Hindi-720p-HDRip-x264-AAC-1-4GB-ESub-MovCr/" class="btn purple white-text">Download Now</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col s6 m4 l3">
+                                    <div class="box">
+                                        <img src="images/DANGAL.jpg" alt="">
+                                        <div class="detail">
+                                            <h5>DANGAL (HINDI AUDIO) </h5>                             
+                                       <p1> Make sure to Download { U TORRENT APPLICATION } before dowloading the movies .</p1>
+                                            <a href="https://www.1377x.to/torrent/2961200/Dangal-2016-BluRay-720p-YTS-YIFY/" class="btn purple white-text">Download Now</a>
+                                        </div>
+                                    </div>
+                                </div>
+                        
+                                <div class="col s6 m4 l3">
+                                    <div class="box">
+                                        <img src="images/THUGS.jpg" alt="">
+                                        <div class="detail">
+                                            <h5> THUGS OF HINDUSTAN (HINDI AUDIO) </h5>                             
+                                       <p1> Make sure to Download { U TORRENT APPLICATION } before dowloading the movies .</p1>
+                                            <a href="https://www.1377x.to/torrent/4421966/Thugs-of-Hindostan-2018-720p-BluRay-YTS-YIFY/" class="btn purple white-text">Download Now</a>
+                                        </div>
+                                    </div>
+                                </div>
+                        
+                                <div class="col s6 m4 l3">
+                                    <div class="box">
+                                        <img src="images/MARDANI.jpg" alt="">
+                                        <div class="detail">
+                                            <h5>MARDAANI (HINDI AUDIO) </h5>                             
+                                       <p1> Make sure to Download { U TORRENT APPLICATION } before dowloading the movies .</p1>
+                                            <a href="https://www.1377x.to/torrent/4286972/Mardaani-2-2019-Hindi-1080p-WEB-DL-x264-6CH-1-7GB-ESubs-MkvHub/" class="btn purple white-text">Download Now</a>
+                                        </div>
+                                    </div>
+                                </div>
+                        
+                                
+                                <div class="col s6 m4 l3">
+                                    <div class="box">
+                                        <img src="images/RAEES.jpg" alt="">
+                                        <div class="detail">
+                                            <h5>RAEES (HINDI AUDIO) </h5>                             
+                                       <p1> Make sure to Download { U TORRENT APPLICATION } before dowloading the movies .</p1>
+                                            <a href="https://www.1377x.to/torrent/4034246/Raees-2017-BluRay-1080p-YTS-YIFY/" class="btn purple white-text">Download Now</a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col s6 m4 l3">
+                                    <div class="box">
+                                        <img src="images/WAZIR.jpg" alt="">
+                                        <div class="detail">
+                                            <h5>WAZIR  (HINDI AUDIO) </h5>                             
+                                       <p1> Make sure to Download { U TORRENT APPLICATION } before dowloading the movies .</p1>
+                                            <a href="https://www.1377x.to/torrent/2304469/Wazir-2016-1080p-YTS-YIFY/" class="btn purple white-text">Download Now</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            
+                        
+                           
+  
+        
+            <div class="col s6 m4 l3">
+                <div class="box">
+                    <img src="images/SUPERB.jpg" alt="">
+                    <div class="detail">
+                        <h5>SUPER 8 (DUAL AUDIO) </h5>                             
+                   <p1> Make sure to Download { U TORRENT APPLICATION } before dowloading the movies .</p1>
+                        <a href="https://www.1377x.to/torrent/4004763/Super-8-2011-720p-BluRay-Dual-Audio-Hindi-English-SeedUp/" class="btn purple white-text">Download Now</a>
+                    </div>
+                </div>
+            </div>
+        
+    
+        <div class="col s6 m4 l3">
+            <div class="box">
+                <img src="images/KABIR.jpg" alt="">
+                <div class="detail">
+                    <h5> KABIR SINGH (DUAL AUDIO) </h5>                             
+               <p1> Make sure to Download { U TORRENT APPLICATION } before dowloading the movies .</p1>
+                    <a href="https://www.1377x.to/torrent/3988250/Kabir-Singh-2019-Hindi-DVDRip-720p-x264-AAC-1-4GB-MB/" class="btn purple white-text">Download Now</a>
+                </div>
+            </div>
+        </div>
+    
+
+    <div class="col s6 m4 l3">
+        <div class="box">
+            <img src="images/DK.jpg" alt="">
+            <div class="detail">
+                <h5> DAKKA (HINDI AUDIO) </h5>                             
+           <p1> Make sure to Download { U TORRENT APPLICATION } before dowloading the movies .</p1>
+                <a href="https://www.1377x.to/torrent/4552699/Daaka-2019-1080p-AMZN-WeB-DL-H264-DDP-5-1-DusIcTv/" class="btn purple white-text">Download Now</a>
+            </div>
+        </div>
+    </div>
+
+
+<div class="col s6 m4 l3">
+    <div class="box">
+        <img src="images/DH.jpg" alt="">
+        <div class="detail">
+            <h5>DHOOM 3 (HINDI AUDIO) </h5>                             
+       <p1> Make sure to Download { U TORRENT APPLICATION } before dowloading the movies .</p1>
+            <a href="https://www.1377x.to/torrent/840051/Dhoom-3-2013-720p-BRrip-x264-SUJAIDR/" class="btn purple white-text">Download Now</a>
+        </div>
+    </div>
+</div>
+
+<div class="col s6 m4 l3">
+    <div class="box">
+        <img src="images/MS.jpg" alt="">
+        <div class="detail">
+            <h5>MY SPY. (ENGLISH AUDIO) </h5>                             
+       <p1> Make sure to Download { U TORRENT APPLICATION } before dowloading the movies .</p1>
+            <a href="https://www.1377x.to/torrent/4395742/My-Spy-2020-720p-BluRay-YTS-YIFY/" class="btn purple white-text">Download Now</a>
+        </div>
+    </div>
+</div>
+
+
+<div class="col s6 m4 l3">
+    <div class="box">
+        <img src="images/MI.jpg" alt="">
+        <div class="detail">
+            <h5>MIDWAY. (HINDI AUDIO) </h5>                             
+       <p1> Make sure to Download { U TORRENT APPLICATION } before dowloading the movies .</p1>
+            <a href="https://www.1377x.to/torrent/4280655/Midway-2019-720p-WEBRip-YTS-YIFY/" class="btn purple white-text">Download Now</a>
+        </div>
+    </div>
+</div>
+
+
+<div class="col s6 m4 l3">
+    <div class="box">
+        <img src="images/GD.jpg" alt="">
+        <div class="detail">
+            <h5>GODZILLA KING OF MONSTER. (DUAL AUDIO) </h5>                             
+       <p1> Make sure to Download { U TORRENT APPLICATION } before dowloading the movies .</p1>
+            <a href="https://www.1377x.to/torrent/3904724/Godzilla-King-of-the-Monsters-2019-720p-HC-HDRip-x264-Dual-Audio-Hindi-Cleaned-English-Downloadhub/" class="btn purple white-text">Download Now</a>
+        </div>
+    </div>
+</div>
+
+<div class="col s6 m4 l3">
+    <div class="box">
+        <img src="images/MI.jpg" alt="">
+        <div class="detail">
+            <h5>ASTRO. (DUAL AUDIO) </h5>                             
+       <p1> Make sure to Download { U TORRENT APPLICATION } before dowloading the movies .</p1>
+            <a href="https://www.1377x.to/torrent/4390447/Astro-2018-720p-WEBRip-x264-Eng-Subs-Dual-Audio-Hindi-DD-2-0-English-2-0-Exclusive-By-Dr-STAR/" class="btn purple white-text">Download Now</a>
+        </div>
+    </div>
+</div>
+
+ 
+</footer>
+</body>
+</li>
+</html>
